@@ -10,3 +10,4 @@ obj-y += usb_power.o
 obj-y += mmc.o
 obj-y += nor_flash.o
 obj-$(CONFIG_SUNXI_DRAM_H616_LPDDR4) += lpddr4-2133.o
+obj-$(CONFIG_SUNXI_DRAM_H616_LPDDR3) += lpddr3.o
